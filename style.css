@@ -1,0 +1,330 @@
+hr {
+    width: 13%;
+    height: 3.6px;
+    color: rgb(92, 58, 214);
+    background-color: rgb(92, 58, 214);
+    border: none;
+    opacity: 1;
+}
+
+.header-text {
+    color: rgb(92, 58, 214);
+    max-width: fit-content;
+    position: absolute;
+    left: 30%;
+    top: 4%;
+}
+
+.small-header-text {
+    display: flex;
+    align-items: center;
+}
+
+.small-header-text h5 {
+    margin: 0;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.cek-medsos-button {
+    background-color: rgb(92, 58, 214);
+    color: white;
+    font-weight: 600;
+    padding: 6px 15px;
+}
+
+.header-text h1 {
+    font-weight: 700;
+}
+
+.hero img {
+    height: 280px;
+}
+
+.img-2 {
+    position: absolute;
+    right: 25%;
+}
+
+.img-3 {
+    float: right;
+}
+
+.menu {
+    padding: 0 30px;
+}
+
+.menu-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 60px 30px;
+}
+
+.menu-col a {
+    border-radius: 20px;
+}
+
+.greeting {
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.pic-container {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic-container h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.outer-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+    height: 80%;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgb(92, 58, 214);
+    margin: auto;
+}
+
+.svg-1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+.menu-col a {
+    color: black;
+}
+
+.menu-col a:link {
+    text-decoration: none;
+}
+
+.menu-col a:visited {
+    text-decoration: none;
+}
+
+.menu-col a:hover {
+    text-decoration: none;
+}
+
+.menu-col a:active {
+    text-decoration: none;
+}
+
+
+.pic-container:hover {
+    box-shadow: 2px 1px 31px 2px rgba(84, 113, 250, 0.95);
+    -webkit-box-shadow: 2px 1px 31px 2px rgba(84, 113, 250, 0.95);
+    -moz-box-shadow: 2px 1px 31px 2px rgba(84, 113, 250, 0.95);
+}
+
+
+
+/* Responsive section */
+
+@media (min-width: 1482px) {
+    .hero img {
+        height: 380px;
+    }
+
+    .header-text {
+        top: 10%;
+    }
+}
+
+
+@media (min-width: 1623px) {
+    .img-2 {
+        right: 22%;
+    }
+
+    .hero img {
+        height: 420px;
+    }
+
+    .header-text {
+        left: 30%;
+        top: 8%;
+    }
+
+    .header-text h1 {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .small-header-text h5 {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    hr {
+        width: 13%;
+        height: 4.3px;
+    }
+
+    .cek-medsos-button {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1331px) {
+    .img-2 {
+        right: 20%;
+    }
+}
+
+@media (max-width: 1148px) {
+    .hero img {
+        height: 230px;
+    }
+
+    .header-text {
+        /* left: 30%; */
+        top: 2%;
+    }
+
+    .header-text h1 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .small-header-text h5 {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    hr {
+        width: 13%;
+        height: 2.3px;
+    }
+
+    .cek-medsos-button {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 954px) {
+
+    .img-1,
+    .img-3 {
+        display: none;
+    }
+
+    .hero {
+        width: 100%;
+        height: 300px;
+        background-color: aliceblue;
+    }
+
+    .header-text {
+        top: 6%;
+        left: 18%;
+    }
+
+    .hero .img-2 {
+        height: 300px;
+        right: 13%;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .hero {
+        width: 100%;
+        height: 250px;
+        background-color: aliceblue;
+    }
+
+    .header-text {
+        top: 4%;
+        left: 18%;
+    }
+
+    .hero .img-2 {
+        height: 250px;
+        right: 13%;
+    }
+
+    .header-text h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .small-header-text h5 {
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    hr {
+        width: 13%;
+        height: 2px;
+    }
+
+    .cek-medsos-button {
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:576px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .header-text {
+        position: static;
+    }
+
+    .header-text h1 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .small-header-text {
+        justify-content: center;
+    }
+
+    .small-header-text h5 {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    hr {
+        width: 13%;
+        height: 2px;
+    }
+
+    .cek-medsos-button {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
